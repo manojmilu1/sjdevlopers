@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html,
 body {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif !important;
-  
 }
 
 /* .border-0{
@@ -14,13 +13,110 @@ body {
 
 .header-img {
   width: 100%;
-  height: 100%;
+  height: 85%;
 }
-.icons{
-    width: 90px;
-    height: 89px;
+.icons {
+  width: 90px;
+  height: 89px;
 }
 
 ul > li {
-  list-style-type:  none;
+  list-style-type: none;
+}
+.faq {
+  font-weight: 700;
+  font-size: 3.125rem;
+  width: 50%;
+}
+.faq-right {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.8em;
+}
+.faq-text {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 3.375rem;
+  width: 35%;
+}
+.address-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 831px) {
+  .header-img {
+    width: 100%;
+    height: 100%;
+  }
+  .faq {
+    font-weight: 700;
+    font-size: 2.125rem;
+    width: 50%;
+  }
+  .faq-right {
+    font-weight: bolder;
+    font-size: 0.875rem;
+    line-height: 1.813em;
+  }
+  .faq-text {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .footer-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 35%;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 831px) and (max-width: 1024px) {
+  .header-img {
+    width: 100%;
+    height: 95%;
+  }
+  .faq {
+    font-weight: 700;
+    font-size: 2.1rem;
+    width: 50%;
+  }
+  .faq-right {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+  .faq-text {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .footer-title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 35%;
+    padding-left: 15px;
+    padding-bottom: 1.5em;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .faq {
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 50%;
+    padding-left: 5%;
+  }
+  .faq-right {
+    font-weight: 500;
+    font-size: .4rem;
+}
+.faq-text {
+  font-weight: 400;
+  font-size: .5rem;
+}
+.footer-title {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
 }

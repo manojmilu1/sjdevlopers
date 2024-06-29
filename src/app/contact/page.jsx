@@ -6,7 +6,7 @@ import image from "../../../public/images/image.png";
 export default function Contact() {
   return (
     <>
-      <main className="container container-fluid">
+      <main className="container container-fluid container-sm">
         <h1 className="py-5">Contact Us</h1>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6  m-auto p-auto">
@@ -58,7 +58,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="row g-5">
-                <div className="col-lg-8 col-md-8 col-sm-8 col-8">
+                <div className="col-lg-10 col-md-10 col-sm-10 col-10">
                   <div className="p-3 d-flexs">
                     <textarea
                       placeholder="Message"
@@ -79,7 +79,7 @@ export default function Contact() {
               </div>
             </form>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6  mx-auto py-5">
+          <div className="col-lg-6 col-md-6 col-sm-6  mx-auto py-5 ">
             <Image src={image} alt="image" className="header-img" />
           </div>
         </div>
@@ -117,42 +117,42 @@ export default function Contact() {
             ></iframe>
           </div>
         </section>
-        <section>
+        <section className="py-5">
           <div className="row d-flex justify-content-between align-items-center">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12 mx-auto">
-              <p>Frequently Asked Questions</p>
+            <div className="col-lg-6 col-md-6 col-sm-6 col-6  ">
+              <p className="faq">Frequently Asked Questions</p>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12 mx-auto">
-              <h2>Lorem ipsum doremant si ?</h2>
-              <p>
+            <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+              <h2 className="faq-right">Lorem ipsum doremant si ?</h2>
+              <p className="faq-text">
                 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsu lorem
                 ipsum lorem ipsum lorem ipsum
               </p>
               <ul>
-                <li>Lorem ipsum doremant si <span>&#9679;</span></li>
-                <li>Lorem ipsum doremant si <span>&#9679;</span></li>
-                <li>Lorem ipsum doremant si <span>&#9679;</span></li>
+                <li className="faq-right">Lorem ipsum doremant si <span>&#9679;</span></li>
+                <li className="faq-right">Lorem ipsum doremant si <span>&#9679;</span></li>
+                <li className="faq-right">Lorem ipsum doremant si <span>&#9679;</span></li>
               </ul>
             </div>
           </div>
         </section>
-        <footer className="mx-auto py-5 bg-dark text-white">
+        <footer className="mx-auto py-5 bg-dark text-white ">
           <div className="d-flex justify-content-around">
-              <div>Join Us Today 
+              <div className="footer-title">Join Us Today 
               For Your Dream Home</div>
-              <div>
-                <h5>Address</h5>
-                <p>Your address xyz street,  city,
+              <div className="align-self-end">
+                <h3>Address</h3>
+                <p className="address-text w-75 h-75">Your address xyz street,  city,
                 pin no.</p>
               </div>
-              <div>
-                <div>
+              <div className="align-self-end px-3">
+                <div> 
                     <h5>Phone no.</h5>
                     <p>+91 7863489438</p>
                     <p>+91 7863489438</p>
                 </div>
                 <div>
-                <h5>Email</h5>
+                <h5 >Email</h5>
                     <p>Youremail@gmail.com</p>
                 </div>
               </div>
